@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('medics.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(248, 251, 253, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 8px 16px;
+    border-radius: 50px;
+    transition: background 0.3s;
+}
+
+#backButton:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#signUpForm{
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #10c7f0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #007bb5;
+}
+
+#adminLoginButton {
+    background-color: #ff5722;
+}
+
+#adminLoginButton:hover {
+    background-color: #e64a19;
+}
+
+.login-register {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-register p {
+    margin: 0;
+}
+
+.login-register a {
+    color: #10c7f0;
+    text-decoration: none;
+}
+
+.login-register a:hover {
+    text-decoration: underline;
+}
