@@ -67,5 +67,3 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to customize this README to fit your project’s needs! Let me know if you’d like any adjustments. 🚀
-
